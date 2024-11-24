@@ -7,6 +7,7 @@ b = 8
 c = 8
 
 # Create a function for the parabola
+
 def parabola(x):
     return a * x**2 + b * x + c
 
