@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Coefficients of the quadratic function
-a = -1  # Change to positive for minimum, negative for maximum
-b = 4
-c = 3
+a = -8  # Change to positive for minimum, negative for maximum
+b = 8
+c = 8
 
 # Create a function for the parabola
 def parabola(x):
