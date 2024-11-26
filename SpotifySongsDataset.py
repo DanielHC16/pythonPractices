@@ -10,6 +10,7 @@ for enc in encodings:
         topSongs24 = pd.read_csv(file_path, encoding=enc)
         print(f'Successfully read the file with encoding: {enc}')
         print(topSongs24.head())  # Display the first few rows of the dataframe
+        print(topSongs24.tail())
         break
     except Exception as e:
         print(f'Failed to read the file with encoding {enc}: {e}')
