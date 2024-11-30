@@ -19,3 +19,4 @@ europe['italy'] = data
 
 # Print europe
 print(europe)
+print(manila)
