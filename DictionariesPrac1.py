@@ -1,10 +1,10 @@
 # Manual List Method
 """pop = [273753191, 7425057, 33573874]
-countries = ["Indonesia", "Laos", "Malaysia"]
+countries = ["Indonesia", "Laos", "Malaysia"]"""
 
 ind_alb = countries.index("Laos")
 print(ind_alb)
-print(pop[ind_alb])"""
+print(pop[ind_alb])
 
 # Dictionaries
 TopSeaPop = {"Indonesia":273753191, "Laos":7425057, "Malaysia":33573874} # Key-Value Pairs
