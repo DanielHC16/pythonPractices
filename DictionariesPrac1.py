@@ -1,6 +1,6 @@
 # Manual List Method
-"""pop = [273753191, 7425057, 33573874]
-countries = ["Indonesia", "Laos", "Malaysia"]"""
+pop = [273753191, 7425057, 33573874]
+countries = ["Indonesia", "Laos", "Malaysia"]
 
 ind_alb = countries.index("Laos")
 print(ind_alb)
@@ -14,12 +14,12 @@ print("3rd Most Populated SEA Country - Malaysia, Population:", TopSeaPop["Malay
 team = ['Daniel', 'Tim', 'King', 'Iwag']
 specialist = ['Lead', 'Fullstack', 'Frontend', 'Backend']
 
-DreamTeam = {'Daniel':'Lead', 'Tim':'Fullstack', 'King':'Frontend', 'Iwag':'Backend'}
+DreamTeam = {'Daniel':'Data', 'Tim':'Fullstack', 'King':'Frontend', 'Iwag':'Backend'}
 print(DreamTeam)
 print(DreamTeam['Daniel']) 
 print(DreamTeam.keys()) # Keys have to be immutable - boolean, int, string
-DreamTeam['Frieda'] = 'Data' # Add more values to a Dictionary
+DreamTeam['Daniel'] = 'Lead' # Add more values to a Dictionary
 print(DreamTeam)
-print('Frieda' in DreamTeam)
+print('Daniel' in DreamTeam)
 #del(DreamTeam['Frieda']) # Deletes a Key
 #print(DreamTeam)
